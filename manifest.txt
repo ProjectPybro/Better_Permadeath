@@ -45,8 +45,6 @@ This stops the player from getting essentially soft-locked in permadeath mode as
 This kinda breaks the medal system. Every level now takes 60 rescues for silver, and 120 rescues for gold, which is the same in the base game. However the first 5 levels, which normally have a reduced quota for medals, are also stuck at this 60 silver 120 gold value. This means getting medals in the first 5 levels is significantly harder, but sadly there's no real way around this.
 
 Note: You still need to activate the permadeath modifier as normal. You can still use this mod without permadeath if you want.
-
-For any questions or suggestions, message me on discord: projectpybro
 }
 
 
