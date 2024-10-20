@@ -76,8 +76,8 @@ GAME_BLD_MAXHEALTH	70
 
 
 //Min/max amount of parks in a city.
-GAME_CITYPARKS_MIN		1
-GAME_CITYPARKS_MAX		5
+GAME_CITYPARKS_MIN		2
+GAME_CITYPARKS_MAX		7
 
 
 //City populations. Scales according to its zombie outbreak levels.
@@ -152,7 +152,7 @@ HUMANSPEED				7.0
 
 
 //Human evacuation run speed.  (Seconds needed move from one tile to next tile)
-HUMANEVACUATIONSPEED	1.7
+HUMANEVACUATIONSPEED	1.6
 
 
 //Human run-away-from-zombies panic speed.  (Seconds needed move from one tile to next tile)
@@ -234,7 +234,7 @@ DAYTIME_MODIFIER_HARDCORE	0.75
 // -------------------------------------------------------
 
 //How many points a human territory generates.
-HUMAN_TERRITORYSCORE	15
+HUMAN_TERRITORYSCORE	20
 
 
 //How many points a zombie territory generates. (outbreak level * multiplier = final score)
@@ -245,7 +245,7 @@ GAME_ZOMBIETERRITORY_MULTIPLIER		10
 DEFAULTVICTORYPOINTS	6000
 
 //Victory points for a short game.
-VICTORYPOINTS_SHORT		1000
+VICTORYPOINTS_SHORT		2000
 
 //Victory points for a long game.
 VICTORYPOINTS_LONG		20000
@@ -400,7 +400,7 @@ GAME_HELI_GATHERRADIUS			10
 
 
 //Heli: how long the heli waits on the ground.
-HELI_LANDEDTIME			8
+HELI_LANDEDTIME			8.5
 
 
 //Heli: how long the heli takes to land.
@@ -505,10 +505,10 @@ STAT_SNIPERS_REFIRETIME_6	0.5
 
 
 //Snipers: reposition time
-STAT_SNIPERS_REPOSITIONTIME_1	4
-STAT_SNIPERS_REPOSITIONTIME_2	3
-STAT_SNIPERS_REPOSITIONTIME_3	2
-STAT_SNIPERS_REPOSITIONTIME_4	1
+STAT_SNIPERS_REPOSITIONTIME_1	3
+STAT_SNIPERS_REPOSITIONTIME_2	2
+STAT_SNIPERS_REPOSITIONTIME_3	1
+STAT_SNIPERS_REPOSITIONTIME_4	0.6
 STAT_SNIPERS_REPOSITIONTIME_5	0.5
 STAT_SNIPERS_REPOSITIONTIME_6	0.4
 STAT_SNIPERS_REPOSITIONTIME_7	0.3
@@ -667,7 +667,7 @@ MS_SUPERZOMBIES			2500
 MS_LLAMAPURCHASEABLE	-1
 
 //How much the purchaseable llamabomb costs (scientists).
-LLAMA_COST				10
+LLAMA_COST				15
 
 // -----------------------------------------------------------------------
 // ======================= UPGRADES, PURCHASEABLES =======================
